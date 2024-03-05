@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Realtime Result Viewer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="editor">
+      <div class="editor-section">
+        <h3>HTML</h3>
+        <textarea id="html-editor" rows="10" placeholder="Enter HTML code"></textarea>
+      </div>
+      <div class="editor-section">
+        <h3>CSS</h3>
+        <textarea id="css-editor" rows="10" placeholder="Enter CSS code"></textarea>
+      </div>
+      <div class="editor-section">
+        <h3>JavaScript</h3>
+        <textarea id="js-editor" rows="10" placeholder="Enter JavaScript code"></textarea>
+      </div>
+    </div>
+    <div class="output">
+      <iframe id="output-frame"></iframe>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
